@@ -305,13 +305,13 @@ span
 body
 {
    border:solid red;
-    /* height: 100vh; 
+     height: 100vh; 
    display:flex;
    flex-direction:column;
    
 }
  
-/*this is different from body_* which gave us the
+this is different from body_* which gave us the
   grow property along column direction for the
    immediated items of body container but as a 
    side effct also gave the grow propery to the 
@@ -330,7 +330,7 @@ img
 {
   height:200px;
 }
- /*flex-grow is set to 1 in x direction 
+ flex-grow is set to 1 in x direction 
      in sense due to the default align items:stretch 
      set to the items of the body container 
      ,do not confuse this with the body>*{flex-grow:1} 
@@ -346,7 +346,7 @@ img
     display:flex;
     align-items:center;
     justify-content:center;
-    /*allowed to grown along the x direction due to align-items=stretch set by default on the items of the body container
+    allowed to grown along the x direction due to align-items=stretch set by default on the items of the body container
 }
 .header>div
 {   display:flex;
@@ -369,7 +369,7 @@ img
      flex-grow:1;
      justify-content: space-between;
 }
-/* .hero>div *       think about these statement which i also tried to apply 
+ .hero>div *       think about these statement which i also tried to apply 
 to the header>div *
 {
     flex-grow:1;
@@ -572,7 +572,7 @@ a
 }
 
 .quote 
-{/*   padding:50px;  
+{   padding:50px;  
     display:flex;
     justify-content:center;
 }
@@ -590,7 +590,7 @@ a
 }
 .quote p
 {
-    /* width:2000px; 
+     width:2000px; 
 }
 .info,.quote
 {
@@ -617,4 +617,4 @@ button
     border-radius:20px;
     padding:5px;
     font-size:15px;
-}
+}*/
